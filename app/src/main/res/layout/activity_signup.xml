@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/signup"
+    tools:context=".SignupActivity"
+    android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+<!--            CREATE ACCOUNT-->
+            <TextView
+                android:id="@+id/createacc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="@string/acc2"
+                android:textColor="#F4F4F4"
+                android:textSize="80sp"
+                android:textStyle="bold" />
+
+<!--            EMAIL-->
+            <EditText
+                android:id="@+id/email2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/edittext_background"
+                android:ems="10"
+                android:hint="@string/email2"
+                android:textColor="@color/black"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="13dp" />
+
+<!--            USERNAME-->
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittext_background"
+                android:ems="10"
+                android:hint="@string/user"
+                android:textColor="@color/black"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="13dp" />
+
+<!--            PASSWORD-->
+            <EditText
+                android:id="@+id/password2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30sp"
+                android:background="@drawable/edittext_background"
+                android:ems="10"
+                android:hint="@string/password2"
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+                android:paddingLeft="13dp" />
+
+<!--            SIGNUP BUTTON-->
+            <Button
+                android:id="@+id/signbut"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#973E3E"
+                android:textColor="@color/white"
+                android:text="@string/signup"
+                android:textSize="16sp" />
+
+<!--            ALREADY HAVE AB ACCOunt-->
+            <TextView
+                android:id="@+id/tologin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/login2"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

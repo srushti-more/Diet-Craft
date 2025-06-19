@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Breakfast Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Breakfast Reminder"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+
+            <TimePicker
+                android:id="@+id/timePickerBreakfast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner" />
+
+            <Button
+                android:id="@+id/btnSetBreakfast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set Breakfast Reminder"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/red"/>
+
+            <!-- Lunch Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lunch Reminder"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TimePicker
+                android:id="@+id/timePickerLunch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner" />
+
+            <Button
+                android:id="@+id/btnSetLunch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set Lunch Reminder"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/red"/>
+
+            <!-- Dinner Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dinner Reminder"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TimePicker
+                android:id="@+id/timePickerDinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner" />
+
+            <Button
+                android:id="@+id/btnSetDinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set Dinner Reminder"
+                android:backgroundTint="@color/red" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

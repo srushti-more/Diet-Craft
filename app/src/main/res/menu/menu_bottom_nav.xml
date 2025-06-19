@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:icon="@drawable/home"
+        android:id="@+id/menu_home"/>
+
+    <item android:title="Recipe"
+        android:icon="@drawable/recipe"
+        android:id="@+id/menu_recipe"/>
+
+    <item android:title="Challenges"
+        android:icon="@drawable/challenge"
+        android:id="@+id/menu_challenge"/>
+
+    <item android:title="Profile"
+        android:icon="@drawable/defaultprofile"
+        android:id="@+id/menu_profile"/>
+
+
+</menu>
