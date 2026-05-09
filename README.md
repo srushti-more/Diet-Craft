@@ -7,13 +7,14 @@
 <img width="738" height="1600" alt="FoodScanner" src="https://github.com/user-attachments/assets/f6951137-7641-4913-bbab-a5ce4a40d3d1" />
 <img width="738" height="1600" alt="ScannedFoodAnalysis" src="https://github.com/user-attachments/assets/87056f83-0ee6-4fc6-aa00-36b206b299a9" />
 <img width="738" height="1600" alt="HomePage" src="https://github.com/user-attachments/assets/1a4bc193-4da0-4f74-b253-522fd2d482f7" />
+<img width="474" height="1280" alt="Analysis" src="https://github.com<img width="1080" height="2340" alt="Reminder" src="https://github.com/user-attachments/assets/3898747b-8983-445b-ba28-f475e896d88e" />
+/user-attachments/assets/20d915cf-2990-4310-bf99-6c1634117c4a" />
 <img width="738" height="1600" alt="RecipeLibrary" src="https://github.com/user-attachments/assets/6549948e-c8ba-4dc8-a58e-be28057a00cd" />
 <img width="738" height="1600" alt="Recipeimg" src="https://github.com/user-attachments/assets/d4918e7f-7369-4877-9acc-2bb39eee19a6" />
 <img width="738" height="1600" alt="Recipeimg2" src="https://github.com/user-attachments/assets/b1f282dc-ce57-49e1-bce9-b872977d1a90" />
 <img width="1080" height="2340" alt="Filter" src="https://github.com/user-attachments/assets/1fdbfcc4-f909-4146-83c3-15278373246b" />
 <img width="738" height="1600" alt="DietChallenge" src="https://github.com/user-attachments/assets/f58091b6-b75a-4322-b9c3-40b674c6f630" />
 <img width="1080" height="2340" alt="ProfilePage" src="https://github.com/user-attachments/assets/63410b37-9386-42f3-a633-ce342038dbb6" />
-<img width="474" height="1280" alt="Analysis" src="https://github.com/user-attachments/assets/20d915cf-2990-4310-bf99-6c1634117c4a" />
 <img width="738" height="1600" alt="Analysis2" src="https://github.com/user-attachments/assets/03755cf3-3e18-408f-b0df-fa1c010aa928" />
 
 
